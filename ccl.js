@@ -6,7 +6,7 @@ function animalsYear(){
 
 var anumal = animals[(year - 4) % 12];
 
-var image = "<img src='" + anumal + "petuch.jpeg'>";
+var image = "<img src='" + anumal + "byk.jpg'>";
 
 document.getElementById("animal").innerHTML = image;
 
